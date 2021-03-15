@@ -6,7 +6,6 @@
 #include "nvmath/Color.inl"
 #include "nvcore/Utils.h"    // clamp
 
-#define HAVE_RGETC NV_OS_OSX
 #define HAVE_ETCPACK 0 // Only enable in OSX for debugging.
 
 #if HAVE_RGETC
